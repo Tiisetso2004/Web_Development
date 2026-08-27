@@ -3,13 +3,14 @@
 
 <body>
     <button id="button">click me</button>
+    <p id ="output"></p>
     <script>
         //this declares a button
         const myButton = document.querySelector("#button");
         
         //add an EventListener and tigger a function to execute upon trigger
-        myButton.addEventListener("click", function() {
-            alert("My first JavaScript, executed successfully");
+        myButton.addEventListener("click", ()=> {
+            document.getElementById("output").textContent = "My first JavaScript, executed successfully";
         });
     </script>
 </body>
