@@ -1,0 +1,41 @@
+body {
+
+    /*Set the display to flex*/
+    display: flex;
+
+    /*align and justify content and items to center*/
+    justify-content: center;
+    align-items: center;
+
+    /*Flex items horizontally, column for verical stacking*/
+    flex-direction: row; 
+    
+    /*Set or asses viewport height for centering*/
+    /*400px is set for easy viewing in live server, set to 100vh for production*/
+    min-height: 400px;
+
+    /*Set the border to view container boundaries*/
+    border: solid green;
+
+    /*set margin to zero to avoid scrollbars*/
+    margin: 0;
+
+    /*space the elements out neatly*/
+    gap: 5px;
+}
+    /*Apply css for elements below*/
+.box {
+    color: rgb(143, 105, 10);
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+    border: 3px solid wheat;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+
+    /*elements can be flex containers for easy centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
