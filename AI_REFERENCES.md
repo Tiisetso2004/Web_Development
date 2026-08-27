@@ -1,4 +1,4 @@
-# AI Reference Docket
+# AI_REFERENCES
 
 This log transparently documents how AI assistants were utilized for conceptual explanations, syntax guidance, and troubleshooting to ensure complete academic integrity.
 
