@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-other-website</title>
+
+<style>
+
+    li:first-child {
+        color: red;
+    }
+
+    li:nth-child(3) {
+        color: green;
+    }
+
+    ol:not(:nth-child(2)) {
+        color: grey;
+    }
+
+    ol::after {
+        content: "Eat healthy";
+    }
+
+    img:hover {
+        content: url(../assets/d2hd73xxwvaa1.jpg);
+        width: 800px;
+        height: 639px;
+    }
+
+    img {
+        width: 800px;
+        height: 639px;
+    }
+
+</style>
+
+</head>
+<body>
+    <img src="https://images.pdimagearchive.org/collections/lantern-slides-of-norway-ca-1910/3613016409_e1d4735ec9_z.jpg?width=639&height=800" alt="Noweigan Landscape">
+</body>
+</html>
