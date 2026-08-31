@@ -4,33 +4,35 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:rgb(1, 22, 26);
+    background-color: rgb(1, 22, 26);
 }
 
 #centered-box {
     width: 500px;
     height: 500px;
-    background-color: rgba(18, 68, 77,0.3);
+    background-color: rgba(18, 68, 77, 0.3);
     border-radius: 4%;
     border: 3px solid;
     border-bottom-color: white;
-    border-top-color:antiquewhite;
-    border-left-color:antiquewhite;
+    border-top-color: antiquewhite;
+    border-left-color: antiquewhite;
     border-right-color: white;
-    
-    
+
+
     /* 1. Stack elements vertically instead of horizontally */
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px; /* 2. Creates a clean space between circle and controls */
+    gap: 30px;
+    /* 2. Creates a clean space between circle and controls */
 }
 
 #circle {
     width: 350px;
-    height:350px;
-    border-radius: 50%; /* 50% is standard for perfect circles */
+    height: 350px;
+    border-radius: 50%;
+    /* 50% is standard for perfect circles */
     border: 3px solid;
     border-bottom-color: antiquewhite;
     border-top-color: white;
@@ -40,18 +42,20 @@ body {
 
 #playback {
     /* 3. Let the buttons inside flex horizontally */
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: solid antiquewhite;    
-    gap: 50px; /* Spaces buttons evenly */
+    border: solid antiquewhite;
+    gap: 50px;
+    /* Spaces buttons evenly */
     background-color: antiquewhite;
     border-radius: 30px;
 }
 
 button {
     font-size: 30px;
-    width: 50px;  /* Give buttons size so they are visible */
+    width: 50px;
+    /* Give buttons size so they are visible */
     height: 50px;
     border-radius: 50%;
     border: none;

@@ -1,7 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(15, 36, 95);
-    color: antiquewhite;  
+    color: antiquewhite;
 }
 
 .basic-table {
@@ -12,7 +12,7 @@ body {
     background-color: rgb(3, 17, 48);
     color: antiquewhite;
     /* Keeps cells cleanly unified */
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 .table-heading {
@@ -26,7 +26,9 @@ body {
     padding: 10px;
 }
 
-th,td,tr {
+th,
+td,
+tr {
     font-size: 30px;
     padding: 10px;
     border: 2px solid antiquewhite;

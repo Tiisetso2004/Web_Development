@@ -8,8 +8,8 @@ body {
     align-items: center;
 
     /*Flex items horizontally, column for verical stacking*/
-    flex-direction: row; 
-    
+    flex-direction: row;
+
     /*Set or asses viewport height for centering*/
     /*400px is set for easy viewing in live server, set to 100vh for production*/
     min-height: 400px;
@@ -23,7 +23,8 @@ body {
     /*space the elements out neatly*/
     gap: 5px;
 }
-    /*Apply css for elements below*/
+
+/*Apply css for elements below*/
 .box {
     color: rgb(143, 105, 10);
     height: 150px;

@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-other-website</title>
 
-<style>
+    <style>
+        /*Styles the first list element inside its parent container*/
+        li:first-child {
+            color: red;
+        }
 
-    /*Styles the first list element inside its parent container*/
-    li:first-child {
-        color: red;
-    }
+        /*Styles the third list element inside the parent container*/
+        li:nth-child(3) {
+            color: green;
+        }
 
-    /*Styles the third list element inside the parent container*/
-    li:nth-child(3) {
-        color: green;
-    }
+        /*Styles any <ol> element, only if it is NOT the second child of the parent container*/
+        ol:not(:nth-child(2)) {
+            color: grey;
+        }
 
-    /*Styles any <ol> element, only if it is NOT the second child of the parent container*/
-    ol:not(:nth-child(2)) {
-        color: grey;
-    }
+        /*Adds the text " - Eat healthy" after hovering over <li>*/
+        li:hover::after {
+            content: " - Eat healthy";
+        }
 
-    /*Adds the text " - Eat healthy" after hovering over <li>*/
-    li:hover::after {
-        content: " - Eat healthy";
-    }
-    /*Swaps the image source when the mouse hovers over it*/
-    img:hover {
-        content: url(../assets/d2hd73xxwvaa1.jpg);
-        width: 800px;
-        height: 639px;
-    }
+        /*Swaps the image source when the mouse hovers over it*/
+        img:hover {
+            content: url(../assets/d2hd73xxwvaa1.jpg);
+            width: 800px;
+            height: 639px;
+        }
 
-    /*Setting the dimension all <img> elements on the webpage*/
-    img {
-        width: 800px;
-        height: 639px;
-    }
-
-</style>
+        /*Setting the dimension all <img> elements on the webpage*/
+        img {
+            width: 800px;
+            height: 639px;
+        }
+    </style>
 
 </head>
+
 <body>
 
     <!--#1 child element in cotainer <body> -->
@@ -54,7 +55,9 @@
     </ol>
 
     <!--Second child element (sibling of <ol>) in the <body container>-->
-    <img src="https://images.pdimagearchive.org/collections/lantern-slides-of-norway-ca-1910/3613016409_e1d4735ec9_z.jpg?width=639&height=800" alt="Noweigan Landscape">   
-     
+    <img src="https://images.pdimagearchive.org/collections/lantern-slides-of-norway-ca-1910/3613016409_e1d4735ec9_z.jpg?width=639&height=800"
+        alt="Noweigan Landscape">
+
 </body>
+
 </html>
